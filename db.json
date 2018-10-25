@@ -47,6 +47,36 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "sam",
+      "image": "https://www.google.com/search?q=image&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjKkLzL0I3eAhVkZN8KHcUQD74Q_AUIDigB&biw=1280&bih=721#imgrc=A6JJqffgz3xzlM:",
+      "likes": 4,
+      "id": 9
+    },
+    {
+      "name": "Spider-Man ",
+      "image": "https://www.google.com/search?q=image&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjKkLzL0I3eAhVkZN8KHcUQD74Q_AUIDigB&biw=1280&bih=721#imgrc=A6JJqffgz3xzlM:",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "name": "milian ",
+      "image": "https://www.google.com/search?q=image&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjKkLzL0I3eAhVkZN8KHcUQD74Q_AUIDigB&biw=1280&bih=721#imgrc=A6JJqffgz3xzlM:",
+      "likes": 0,
+      "id": 11
+    },
+    {
+      "name": "juan",
+      "image": "https://www.google.com/search?q=image&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjKkLzL0I3eAhVkZN8KHcUQD74Q_AUIDigB&biw=1280&bih=721#imgrc=A6JJqffgz3xzlM:",
+      "likes": 0,
+      "id": 12
+    },
+    {
+      "name": "Steven Paulino",
+      "image": "https://www.google.com/search?q=image&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjKkLzL0I3eAhVkZN8KHcUQD74Q_AUIDigB&biw=1280&bih=721#imgrc=A6JJqffgz3xzlM:",
+      "likes": 0,
+      "id": 13
     }
   ]
 }

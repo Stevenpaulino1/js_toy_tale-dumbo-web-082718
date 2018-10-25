@@ -7,6 +7,26 @@ document.addEventListener("DOMContentLoaded",() => {
 
   let addToy = false
 
+  function juan(event){
+    event.preventDefault()
+  const name = event.target[0].value
+  const imgUrl = event.target[1].value
+    fetch('http://localhost:3000/toys', {
+        method: "POST",
+        headers:
+        {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: JSON.stringify({
+          name: name,
+          image: imgUrl,
+          likes: 0
+          })
+    })
+    .then(res => res.json())
+    .then(showtoys)
+  }
 
 
   const toy_container = document.querySelector("#toy-collection")
@@ -32,12 +52,11 @@ document.addEventListener("DOMContentLoaded",() => {
         const button = document.createElement('button')
         button.dataset.id = toy.id
         button.className = "like-btn"
-        button.innerText = "Like"
-        
+         button.innerText = "Like"
+
         div.append(h2,image,button,p)
         toy_container.append(div)
         button.addEventListener('click', increaseLikes)
-
       };
 
       function increaseLikes(event){
@@ -69,7 +88,7 @@ document.addEventListener("DOMContentLoaded",() => {
       addToy = !addToy
       if (addToy) {
         toyForm.style.display = 'block'
-        toyForm.addEventListener('submit', handleSubmit)
+        toyForm.addEventListener('submit', juan)
       } else {
         toyForm.style.display = 'none'
       }
